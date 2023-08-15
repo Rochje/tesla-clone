@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 500;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #171a20;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 24px 14px;
+}
+
+.banner-wrap {
+    background-image: url(assets/banner.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    height: 23.99px;
+    width: 120px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 55.99px;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.nav-item{
+    margin: 0 0 8px 8px;
+    padding: 4px 4px 8px 8px;
+    cursor: pointer;
+}
+.nav-item:hover{
+    border-bottom-left-radius: 10000px;
+    border-bottom-right-radius: 10000px;
+    border-top-left-radius: 10000px;
+    border-top-right-radius: 10000px;
+    background-color: #d6d5d5;
+}
+    
+
+
+
+main{
+    text-align: center;
+    height: calc(100vh - 55.99px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    margin-top: calc(80px - 55.99px);
+}
+
+.buttons{
+    margin-bottom: 35px;
+}
+
+button{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    background: none;
+    width: 211.562px;
+    height: 40px;
+    padding: 4px 24px;
+    background-color: rgba(23, 26, 32, 0.65);
+    margin-right: 25px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    cursor: pointer;
+}
+
+.btn-light{
+    background-color: #edecec;
+    color: #57575a;
+}
+.btn-light:hover{
+    background-color: #57575a;
+    color: #d6d5d5;
+    transition: 0.33s;
+}
+
+.btn-dark{
+    background-color: #57575a;
+    color: #edecec;
+}
+
+.btn-dark:hover{
+    background-color: #57575a;
+    color: #edecec;
+    transition: 0.33s;
+}
+
